@@ -66,7 +66,7 @@ export default function App() {
     return () => window.removeEventListener('scroll', onScroll);
   }, [loading]);
 
-  // GSAP entrance animations after loading
+  // GSAP animations after loading
   useEffect(() => {
     if (loading) return;
     gsap.fromTo('.tab-bar', { y: -40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: 'power2.out' });
