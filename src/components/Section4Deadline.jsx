@@ -107,7 +107,7 @@ const Section4Deadline = forwardRef(function Section4Deadline(props, ref) {
         <div className="tasklist reveal">
           <div className="tasklist-header">
             <span className="comment">//Last minute tasks</span>
-            <span className="comment">"(Glimpse of my first project a TODO LIST)"</span>
+            <span className="comment">(Glimpse of my first project a TODO LIST)</span>
             <span style={{ fontSize: 12, color: done === tasks.length ? 'var(--green)' : 'var(--orange)' }}>
               {done}/{tasks.length} done
             </span>
